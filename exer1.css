@@ -7,19 +7,33 @@ html, body {
     height: 100%;
 }
 
-.cimabaixo{
+.cima{
     flex: 1;
+    display: flex;
     background-color: gainsboro;
     justify-content: center;
     align-items: center;
 }
 .centro{
-    flex: 8;
+    flex: 4;
+    display: flex;
     background-color: ghostwhite;
+    justify-content: center;
+    align-items: flex-end;
 }
 .baixo{
     flex: 1;
+    display: flex;
     background-color: gainsboro;
     justify-content: center;
     align-items: center;
+    text-decoration: gray;
+    
+}
+.img{
+    
+    flex: 4;
+    display: flex;
+    background-color: ghostwhite;
+    justify-content: center;
 }
